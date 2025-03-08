@@ -1,0 +1,87 @@
+/* AcercaDeMi.css */
+
+.about-me {
+    padding: 40px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #1a202c; /* Color del título */
+    text-align: left; /* Centrar el título */
+  }
+  
+  .about-me p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #1a202c; /* Color del texto */
+  }
+  
+  .about-me ul {
+    list-style-type: none; /* Estilo de la lista */
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .about-me li {
+    margin-bottom: 10px;
+    color: #1a202c;
+  }
+
+  .about-me li::before {
+    content: '->';
+    color: #4299e1;
+    margin-left: 5px;
+  }
+
+  .habilidades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .habilidades-grid div {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex; /* Habilitar Flexbox */
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .habilidades-grid div i {
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+  }
+  
+  /* Media queries para responsividad */
+  @media (max-width: 768px) {
+    .about-me {
+      padding: 20px;
+    }
+  
+    .about-me h2 {
+      font-size: 2em;
+    }
+
+    .about-me p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-me {
+      padding: 10px;
+    }
+  
+    .about-me h2 {
+      font-size: 1.6em;
+    }
+  }

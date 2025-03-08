@@ -1,0 +1,40 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-clients {
+    margin-bottom: 10px;
+  }
+  
+  .footer-clients h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .client-icons img {
+    width: 50px; /* Ajusta el tamaño de los iconos */
+    margin: 0 5px;
+  }
+  
+  .footer-copyright p {
+    font-size: 0.9em;
+    color: #777;
+  }
