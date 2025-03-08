@@ -12,7 +12,7 @@ function About() {
                 pruebas y el despliegue en la Google Play Store.
             </p>
             <p>
-                En el ámbito de iOS, cuento con más de dos años de experiencia en el desarrollo de aplicaciones nativas utilizando Swift. 
+                En el ámbito de iOS, cuento con más de dos años de experiencia en el desarrollo de aplicaciones nativas utilizando SwiftUI. 
                 He trabajado en la creación de aplicaciones para iPhone y iPad, aplicando principios de diseño de Apple y aprovechando las 
                 últimas características del sistema operativo iOS.
             </p>
