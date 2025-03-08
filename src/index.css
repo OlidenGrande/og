@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* pantallas grandes (PCs) */
+.my_container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* tablets */
+@media (max-width: 768px) {
+  .mi-contenedor {
+    width: 90%;
+  }
+}
+
+/* teléfonos */
+@media (max-width: 480px) {
+  .mi-contenedor {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
