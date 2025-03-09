@@ -6,9 +6,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <Link to="/privacy">Privacy Policy</Link>
+        <Link to="/Privacy">Privacy Policy</Link>
       </div>
-      {/* ... (el resto del componente) ... */}
     </footer>
   );
 }

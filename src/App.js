@@ -13,7 +13,7 @@ function App() {
         <Header />
         <About />
         <Routes>
-          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/Privacy" element={<Privacy />} />
         </Routes>
         <Footer />
       </div>
