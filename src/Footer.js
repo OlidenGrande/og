@@ -6,7 +6,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <Link to="/Privacy">Privacy Policy</Link>
+        {/* <Link to="/Privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</Link> */}
+        <a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
       </div>
     </footer>
   );
