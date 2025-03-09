@@ -4,19 +4,17 @@ import Header from "./Header";
 import About from "./About";
 import './App.css';
 import Footer from "./Footer";
-
-function Home() {
-    return (
-        <About/>
-    )
-}
+import Privacy from "./Privacy";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
-        <Home/>
+        <About />
+        <Routes>
+          <Route path="/privacy" element={<Privacy />} />
+        </Routes>
         <Footer />
       </div>
     </BrowserRouter>
