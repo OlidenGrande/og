@@ -4,7 +4,6 @@ import Header from "./Header";
 import About from "./About";
 import './App.css';
 import Footer from "./Footer";
-import Privacy from "./Privacy";
 
 function Home() {
     return (
@@ -18,9 +17,6 @@ function App() {
       <div className="App">
         <Header />
         <Home/>
-        <Routes>
-          <Route path="/privacy" element={<Privacy />} />
-        </Routes>
         <Footer />
       </div>
     </BrowserRouter>
