@@ -7,7 +7,6 @@ function Footer() {
       <div className="footer-links">
         <a href="https://olidengrande.github.io/og/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
       </div>
-      {/* ... (el resto del componente) ... */}
     </footer>
   );
 }
