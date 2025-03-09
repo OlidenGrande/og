@@ -1,24 +1,15 @@
-import React from "react";
+import React from 'react';
 import './Footer.css';
 
 function Footer() {
-    return(
-        <footer className="footer">
-            <div className="footer-links">
-                <a href="/About">About me</a>
-                <a href="/privacy">Privacy</a>
-            </div>
-            {/* <div className="footer-clients">
-                <h3>Clientes</h3>
-                <div className="client-icons">
-
-                </div>
-            </div> */}
-            <div className="footer-copyright">
-                <p>&copy; {new Date().getFullYear} Oliden Grande</p>
-            </div>
-        </footer>
-    );
+  return (
+    <footer className="footer">
+      <div className="footer-links">
+        <a href="https://olidengrande.github.io/og/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+      </div>
+      {/* ... (el resto del componente) ... */}
+    </footer>
+  );
 }
 
 export default Footer;
