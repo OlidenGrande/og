@@ -34,7 +34,7 @@
     margin: 0 5px;
   }
   
-  .footer-copyright p {
-    font-size: 0.9em;
-    color: #777;
+  .footer-copyright {
+    font-size: 12px;
+    opacity: 0.8;
   }
