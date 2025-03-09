@@ -10,9 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-        <Routes>
-          <Route path="/Privacy" element={<Privacy />} />
-        </Routes>
+        <About />
         <Footer />
       </div>
     </BrowserRouter>
